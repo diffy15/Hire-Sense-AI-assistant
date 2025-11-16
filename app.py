@@ -11,7 +11,7 @@ import random
 from login import auth_flow
 
 # ---------------------- API Key Setup ----------------------
-API_KEY = "AIzaSyBBkqHLQImyULPx8ta6JXS2sTBJj1Mc6e0"  # Replace with your actual API key
+API_KEY = "AIzaSyDRudW1w8hwv51InVmt0v7gBeT8f1Msms8"  # Replace with your actual API key
 os.environ["GOOGLE_API_KEY"] = API_KEY
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 model = genai.GenerativeModel('gemini-2.0-flash')
@@ -817,4 +817,5 @@ if __name__ == "__main__":
 
     # Only show the main application if authenticated
     if authenticated:
+
         main()
