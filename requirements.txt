@@ -1,0 +1,7 @@
+streamlit==1.29.0
+streamlit-chat==0.0.2.2
+requests==2.31.0
+python-dotenv==1.0.0
+google-generativeai
+pymongo
+plotly
